@@ -1,0 +1,38 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:50821",
+      "sslPort": 44353
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Promo_Codo_Hosting": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/promocode",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "MongoDBConnectionString": "mongodb+srv://alphasourceuser:Prestige123$$@alphasourcestagingclust.o6sdv.azure.mongodb.net/foodyhive?retryWrites=true&w=majority",
+        "MongoDBName": "foodyhive",
+        "MongoDBCollectionName": "GeneratePromoCode",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
+
+
+//"mongodb+srv://alphasourceuser:Prestige123$$@alphasourcestagingclust.o6sdv.azure.mongodb.net/foodyhive?retryWrites=true&w=majority",
+
+//"mongodb://localhost:27017""

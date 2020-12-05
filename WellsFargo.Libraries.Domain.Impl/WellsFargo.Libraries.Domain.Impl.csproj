@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WellsFargo.Libraries.DataAccess.Interfaces\WellsFargo.Libraries.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\WellsFargo.Libraries.Domian.Interfaces\WellsFargo.Libraries.Domian.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

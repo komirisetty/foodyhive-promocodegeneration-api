@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>AlphaSource.Libraries.Services.Impl</AssemblyName>
+    <RootNamespace>AlphaSource.Libraries.Services.Impl</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WellsFargo.Libraries.Domian.Interfaces\WellsFargo.Libraries.Domian.Interfaces.csproj" />
+    <ProjectReference Include="..\WellsFargo.Libraries.Models\WellsFargo.Libraries.Models.csproj" />
+    <ProjectReference Include="..\WellsFargo.Libraries.Services.Interfaces\WellsFargo.Libraries.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>WellsFargo.Libraries.Services.Impl</AssemblyName>
+    <RootNamespace>WellsFargo.Libraries.Services.Impl</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\saivaraprasad\source\repos\PromoCode-Generation\PromoCode-Generation\WellsFargo.Libraries.Services.Impl\WellsFargo.Libraries.Services.Impl.xml</DocumentationFile>
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WellsFargo.Libraries.Domian.Interfaces\WellsFargo.Libraries.Domian.Interfaces.csproj" />
+    <ProjectReference Include="..\WellsFargo.Libraries.Models\WellsFargo.Libraries.Models.csproj" />
+    <ProjectReference Include="..\WellsFargo.Libraries.Services.Interfaces\WellsFargo.Libraries.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="WellsFargo.Libraries.Services.Impl.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

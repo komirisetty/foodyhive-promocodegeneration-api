@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.ORM.Impl\\WellsFargo.Libraries.ORM.Impl.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.Models\\WellsFargo.Libraries.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.Models\\WellsFargo.Libraries.Models.csproj",
+        "projectName": "WellsFargo.Libraries.Models",
+        "projectPath": "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.Models\\WellsFargo.Libraries.Models.csproj",
+        "packagesPath": "C:\\Users\\saivaraprasad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saivaraprasad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.com/api/v4/projects/20936303/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.ORM.Impl\\WellsFargo.Libraries.ORM.Impl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.ORM.Impl\\WellsFargo.Libraries.ORM.Impl.csproj",
+        "projectName": "WellsFargo.Libraries.ORM.Impl",
+        "projectPath": "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.ORM.Impl\\WellsFargo.Libraries.ORM.Impl.csproj",
+        "packagesPath": "C:\\Users\\saivaraprasad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.ORM.Impl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saivaraprasad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.com/api/v4/projects/20936303/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.Models\\WellsFargo.Libraries.Models.csproj": {
+                "projectPath": "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.Models\\WellsFargo.Libraries.Models.csproj"
+              },
+              "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.ORM.Interfaces\\WellsFargo.Libraries.ORM.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.ORM.Interfaces\\WellsFargo.Libraries.ORM.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.ORM.Interfaces\\WellsFargo.Libraries.ORM.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.ORM.Interfaces\\WellsFargo.Libraries.ORM.Interfaces.csproj",
+        "projectName": "WellsFargo.Libraries.ORM.Interfaces",
+        "projectPath": "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.ORM.Interfaces\\WellsFargo.Libraries.ORM.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\saivaraprasad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.ORM.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saivaraprasad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.com/api/v4/projects/20936303/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.Models\\WellsFargo.Libraries.Models.csproj": {
+                "projectPath": "C:\\Users\\saivaraprasad\\source\\repos\\PromoCode-Generation\\PromoCode-Generation\\WellsFargo.Libraries.Models\\WellsFargo.Libraries.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
